@@ -1,0 +1,9 @@
+name: sri_hash
+version: 0.1.0
+
+authors:
+  - Aaron Namba <aaron@aaronnamba.com>
+
+crystal: 0.27.2
+
+license: MIT
