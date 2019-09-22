@@ -4,19 +4,19 @@
 [![Build Status](https://travis-ci.org/anamba/sri_hash.cr.svg?branch=master)](https://travis-ci.org/anamba/sri_hash.cr)
 [![License](https://img.shields.io/github/license/anamba/sri_hash.cr.svg)](https://github.com/anamba/sri_hash.cr/blob/master/LICENSE)
 
-Subresource integrity helper for Crystal. More info on SRI: https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
+Subresource integrity helper for Crystal. More info on SRI: <https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity>
 
 ## Installation
 
-1. Add the dependency to your `shard.yml`:
+1.  Add the dependency to your `shard.yml`:
 
-   ```yaml
-   dependencies:
-     sri_hash:
-       github: anamba/sri_hash.cr
-   ```
+    ```yaml
+    dependencies:
+      sri_hash:
+        github: anamba/sri_hash.cr
+    ```
 
-2. Run `shards install`
+2.  Run `shards install`
 
 ## Usage
 
@@ -41,12 +41,12 @@ SRIHash.from_string("Example text")  # -> "sha384-ccLtG4S0txUiu3s0kEOUSiKfr3poGC
 
 ## Contributing
 
-1. Fork it (<https://github.com/anamba/sri_hash.cr/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1.  Fork it (<https://github.com/anamba/sri_hash.cr/fork>)
+2.  Create your feature branch (`git checkout -b my-new-feature`)
+3.  Commit your changes (`git commit -am 'Add some feature'`)
+4.  Push to the branch (`git push origin my-new-feature`)
+5.  Create a new Pull Request
 
 ## Contributors
 
-- [Aaron Namba](https://github.com/anamba) - creator and maintainer
+-   [Aaron Namba](https://github.com/anamba) - creator and maintainer
