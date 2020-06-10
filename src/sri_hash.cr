@@ -15,7 +15,7 @@ module SRIHash
   def self.from_io(io : IO, algorithm : String = settings.algorithm)
     digest = OpenSSL::Digest.new(algorithm)
     digest << io
-    hash = digest.base64digest.gsub("\n", "") # remove newlines added every 60 chars by Base64 :(
+    hash = Base64.strict_encode(digest.final).gsub("\n", "") # remove newlines added every 60 chars by Base64 :(
     "#{algorithm}-#{hash}"
   end
 
