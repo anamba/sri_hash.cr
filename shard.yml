@@ -4,6 +4,6 @@ version: 0.2.0
 authors:
   - Aaron Namba <aaron@aaronnamba.com>
 
-crystal: 0.35.0
+crystal: 0.36.0
 
 license: MIT
