@@ -2,7 +2,7 @@ require "http"
 require "openssl"
 
 module SRIHash
-  VERSION = "0.1.0"
+  VERSION = "0.2.0"
 
   class Settings
     property algorithm : String = "sha256"
@@ -34,7 +34,7 @@ module SRIHash
   def self.script_tag(url : String, defer = true, crossorigin = "anonymous", algorithm : String = settings.algorithm)
     uri = URI.parse(url)
     client = HTTP::Client.new(uri)
-    response = client.get(uri.full_path)
+    response = client.get(uri.request_target)
     client.close
 
     hash = from_string(response.body, algorithm)

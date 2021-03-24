@@ -2,9 +2,9 @@
 
 Arranged in reverse chronological order (latest changes on top).
 
-## Unreleased
+## v0.2.0 - 2021-03-24
 
-*   Fix for Crystal 0.35.0 deprecation warning
+*   Crystal 1.0 support
 
 ## v0.1.0 - 2019-04-17
 
